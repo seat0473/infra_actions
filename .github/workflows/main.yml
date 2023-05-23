@@ -7,9 +7,7 @@ jobs:
     # «Раннер» — создание изолированного окружения с последней версией Ubuntu 
     runs-on: ubuntu-latest
 
-    steps:
-    
-    
+    steps:  
     - uses: actions/checkout@v2
     - name: Set up Python
       
